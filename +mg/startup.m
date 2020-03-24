@@ -4,6 +4,10 @@ switch upper(cn)
         def.repodirs = {'hst','proc','internal','Project_Intra-Array-Exploration',...
             'MatLabCustToolbox','SeegBasic','GestureDecoding'};
         def.userdirs = {};
+
+    case {'MANGO_DESKTOP','GLIA.VIS.CALTECH.EDU','GLIA'}
+        def.repodirs = {'hst','proc','internal','Project_Intra-Array-Exploration','MatLabCustToolbox'};
+
     case 'MANGO-PC'
         def.repodirs = {'hst','proc','internal','Project_Intra-Array-Exploration'};
         def.userdirrs = {};
